@@ -188,7 +188,7 @@ class plgJ2StorePayment_conekta extends J2StorePaymentPlugin
 		$vars->public_key = $this->public_key;
 		$vars->private_key = $this->private_key;
 
-		$vars->display_name = $this->params->get('display_name', 'PLG_J2STORE_PAYMENT_PAYMILL');
+		$vars->display_name = $this->params->get('display_name', 'PLG_CONEKTA_J2STORE_PAYMENT');
 		$vars->onbeforepayment_text = $this->params->get('onbeforepayment', '');
 		$vars->button_text = $this->params->get('button_text', 'J2STORE_PLACE_ORDER');
 		$vars->sandbox = $this->params->get('sandbox', 0);
